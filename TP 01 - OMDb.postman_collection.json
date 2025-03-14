@@ -1,0 +1,159 @@
+{
+	"info": {
+		"_postman_id": "26d41b17-c23c-4227-9886-4558ec76f494",
+		"name": "TP 01 - OMDb",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "(By s) Identificar por nombre \"Cars\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?apikey=9d230b0c&s=cars",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "9d230b0c"
+						},
+						{
+							"key": "s",
+							"value": "cars"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "(By name) Buscar película con nombre \"Hunger\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?apikey=9d230b0c&s=Hunger",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "9d230b0c"
+						},
+						{
+							"key": "s",
+							"value": "Hunger"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "(By name) Obtener datos de la película Monsters, Inc.",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?apikey=9d230b0c&t=Monsters, Inc.",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "9d230b0c"
+						},
+						{
+							"key": "t",
+							"value": "Monsters, Inc."
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "(By name) Obtener datos de la película Rocky IV",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?apikey=9d230b0c&t=Rocky IV",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "9d230b0c"
+						},
+						{
+							"key": "t",
+							"value": "Rocky IV"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "(By ID) Obtener datos de película",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?apikey=9d230b0c&i=tt0067992",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "9d230b0c"
+						},
+						{
+							"key": "i",
+							"value": "tt0067992"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

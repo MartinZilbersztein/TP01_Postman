@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "cb27475f-2d30-40da-84e4-85ee40ecfb0b",
+		"name": "TP 01 - PokeAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "(By name) Obtener nombre de Pokemon",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/pokemon/pikachu",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"pokemon",
+						"pikachu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "(By type) Consultar tipos de Pokémon",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/pokemon",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"pokemon"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "(By ID) Obtener el Pokemon cuyo ID = 150",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/pokemon/150",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"pokemon",
+						"150"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "(By Name) Obtener moves de Pokemon",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/pokemon/charizard",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"pokemon",
+						"charizard"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "(By Name) Obtener altura y peso de Bulbasaur",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "(By Name) Obtener altura y peso de Bulbasaur",
+					"host": [
+						"(By Name) Obtener altura y peso de Bulbasaur"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
