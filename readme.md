@@ -22,7 +22,7 @@ APIs utilizadas:
     
 2. Consulta N°2: Buscar "Hunger" y devolver el nombre de la última película que retorna OMDb API
 <br>
-Comando empleado:
+Comando empleado:<br>
     ```
     http://www.omdbapi.com/?apikey=9d230b0c&t=Hunger
     ```
@@ -42,10 +42,10 @@ Comando empleado:
     <br>
     Por lo tanto, <b>la cantidad de votos es de 1.017.055 y los actores son Billy Crystal, John Goodman y Mary Gibbs.</b> <br>
     P.D.: es posible que no se puedan visualizar las imágenes. Esto ya ha sido hablado previamente durante clase.
-
+<br>
 4. Consulta N°4: Obtener de la película "Rocky IV" su género, director y cuántos minutos de duración tiene la película.
 <br>
-Comando empleado:
+Comando empleado:<br>
     ```
     http://www.omdbapi.com/?apikey=9d230b0c&t=Rocky IV
     ```
@@ -58,20 +58,20 @@ Comando empleado:
 
 5. Consulta N°5: Obtener de la película cuyo imdbID es "tt0067992" su título y el año en el que se estrenó.
 <br>
-Comando empleado:
+Comando empleado:<br>
     ```
     http://www.omdbapi.com/?apikey=9d230b0c&i=tt0067992
     ```
     <br>
     De esta forma, se obtiene toda la información de la película cuyo ID es el mencionado en el enunciado.
     <br>
-    ![Imagen consulta 5](/images/novenascreenshot.png)<br>
+    ![Imagen consulta 5](/images/quintascreenshot.png) <br>
     ![Imagen consulta 6](/images/decimascreenshot.png)<br>
     Por lo tanto, el título de la película es <b>Willy Wonka & the Chocolate Factory</b> y el año en el que se estrenó es <b>1971</b>
 
 #### Parte 2: PokeAPI
 1. Consulta N°1: Obtener la información completa del pokémon llamado Pikachu.<br>
-    Comando empleado:
+    Comando empleado:<br>
     ```
     https://pokeapi.co/api/v2/pokemon/pikachu
     ```
@@ -80,7 +80,7 @@ Comando empleado:
     ![Imagen PokeApi](/images/decimoprimerascreenshot.png)
 
 2. Consulta N°2: Consultar cuántos tipos de Pokémon diferentes existen en la API.<br>
-Comando empleado:
+Comando empleado:<br>
     ```
     https://pokeapi.co/api/v2/pokemon
     ```
@@ -91,7 +91,7 @@ Comando empleado:
     Por tanto, la cantidad de pokémons registrados en la API es de <b>1302</b>.
 
 3. Consulta N°3: Obtener el nombre del Pokémon cuyo ID es 150.<br>
-Comando empleado:
+Comando empleado:<br>
     ```
     https://pokeapi.co/api/v2/pokemon/150
     ```
@@ -102,7 +102,7 @@ Comando empleado:
     Por tanto, el nombre del pokémon cuya ID es 150 es <b>Mewtwo</b>.
 
 4. Consulta N°4: Buscar los movimientos que puede aprender el Pokémon Charizard.<br>
-Comando empleado:
+Comando empleado:<br>
     ```
     https://pokeapi.co/api/v2/pokemon/charizard
     ```
@@ -112,7 +112,7 @@ Comando empleado:
     Por lo tanto, las habilidades que el pokémon Charizard puede aprender son las <b>llamaradas</b> y el <b>poder solar</b>
     
 5. Consulta N°5: Obtener la altura y peso del Pokémon Bulbasaur<br>
-Comando empleado:
+Comando empleado:<br>
     ```
     https://pokeapi.co/api/v2/pokemon/charizard
     ```
