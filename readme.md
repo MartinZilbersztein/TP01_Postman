@@ -22,7 +22,7 @@ APIs utilizadas:
     
 2. Consulta N°2: Buscar "Hunger" y devolver el nombre de la última película que retorna OMDb API
 <br>
-Comando empleado:<br>
+Comando empleado:
     ```
     http://www.omdbapi.com/?apikey=9d230b0c&t=Hunger
     ```
