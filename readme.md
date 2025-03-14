@@ -46,7 +46,8 @@ Comando empleado:
 4. Consulta N°4: Obtener de la película "Rocky IV" su género, director y cuántos minutos de duración tiene la película.
 <br>
 Comando empleado:
-    ```
+    
+    
     http://www.omdbapi.com/?apikey=9d230b0c&t=Rocky IV
     ```
     Este envía un request a la API y devuelve en pantalla datos relacionados a la película llamada "Rocky IV".<br>
